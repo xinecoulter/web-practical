@@ -7,8 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<div class="container">
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="#" class="brand">Reelio</a>
+      <ul class="nav">
+        <li><a href="#">Notifications</a></li>
+        <li><%= image_tag "Nick_Fury.jpg", alt: "Profile Image" %></li>
+        <li><a href="#">nick.fury@shield.gov</a></li>
+      </ul>
+    </div>
+  </nav>
+  <%= yield %>
+</div>
 </body>
 </html>
