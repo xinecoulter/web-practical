@@ -24,3 +24,42 @@ img {
   width: 40px;
   height: auto;
 }
+
+.nav-list {
+  border-width: 1px;
+  border-style: solid;
+  height: 80%;
+  text-align: center;
+}
+
+.main-content div,
+.side-content div {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.notifications {
+  margin-bottom: 1%;
+}
+
+.notifications div {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+}
+
+.stats-youtube,
+.stats-twitter,
+.stats-facebook {
+  width: 100%;
+}
+
+.stats-youtube div,
+.stats-twitter div,
+.stats-facebook div {
+  width: 32.333333%;
+  display: inline-block;
+  margin: 0;
+  text-align: right;
+}
