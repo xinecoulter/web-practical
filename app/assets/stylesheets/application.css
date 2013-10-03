@@ -20,7 +20,7 @@ body {
   position: absolute;
 }
 
-img {
+.profile-image img {
   width: 40px;
   height: auto;
 }
@@ -62,4 +62,28 @@ img {
   display: inline-block;
   margin: 0;
   text-align: right;
+}
+
+.recommendations {
+  width: 100%;
+  text-align: center;
+}
+
+.recommendations p:first-child {
+  text-align: left;
+}
+
+.recommendations div {
+  margin: 1%;
+}
+
+.recommendation-summary div {
+  width: 29.333333%;
+  height: 100%;
+  display: inline-block;
+}
+
+.recommendations img {
+  width: 50%;
+  height: auto;
 }
