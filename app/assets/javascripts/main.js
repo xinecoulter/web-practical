@@ -20,6 +20,8 @@ var recommendations = {
 
 // script to show envelope pictures in case of notifications
 
+// script for when user clicks on recommendations button to show more matches
+
 $(document).ready(function () {
   $(".recommendations").on("click", ".recommendation-summary", recommendations.recommendationPopUp);
 });
