@@ -6,3 +6,7 @@
 .recommendations .btn {
   width: 60%;
 }
+
+.navbar-inner .nav {
+  float: right;
+}

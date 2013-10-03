@@ -15,8 +15,6 @@
 body {
   width: 100%;
   height: 100%;
-  border-width: 1px;
-  border-style: solid;
   position: absolute;
 }
 
@@ -35,18 +33,31 @@ body {
 .main-content div,
 .side-content div {
   width: 100%;
+}
+
+.notifications,
+.notifications div,
+.stats {
+  margin-bottom: 1%;
   border-width: 1px;
   border-style: solid;
 }
 
-.notifications {
+.stats div {
   margin-bottom: 1%;
+}
+
+.recommendations,
+.recommendation-summary {
+  border-width: 1px;
+  border-style: solid;
 }
 
 .notifications div {
   width: 98%;
   margin: 0 auto;
   margin-bottom: 1%;
+  padding: 1%;
 }
 
 .stats-youtube,
@@ -73,17 +84,47 @@ body {
   text-align: left;
 }
 
-.recommendations div {
-  margin: 1%;
+.recommendation-summary {
+  /*margin: 1%;*/
+  width: 90%;
 }
 
 .recommendation-summary div {
   width: 29.333333%;
   height: 100%;
   display: inline-block;
+  margin: 1%;
 }
 
 .recommendations img {
   width: 50%;
   height: auto;
+}
+
+.notify-new-matches {
+  background-color: rgb(167, 245, 167);
+}
+
+.notify-update-profile {
+  background-color: rgb(255, 200, 210);
+}
+
+.notify-mobile {
+  background-color: rgb(159, 159, 252);
+}
+
+.notify-reconnect {
+  background-color: rgb(248, 248, 146);
+}
+
+.pop-up {
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  z-index: 1;
+  float: right;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  margin-bottom: 40%;
 }
